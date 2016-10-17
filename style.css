@@ -1,0 +1,39 @@
+
+#color{
+  background-color:#66fffb;
+}
+
+#pad{
+  margin-top: 40px;
+}
+
+#top{
+  margin-top: 150px;
+}
+
+#navtitle{
+  font-size: 25px;
+  color:#000000;
+}
+
+#navsize{
+  font-size: 17px;
+}
+
+#image{
+  float: left;
+}
+
+#para{
+  text-align: center;
+}
+
+#port{
+  margin-left:80px;
+  margin-top: 30px;
+}
+
+#exp{
+  margin-left:150px;
+  margin-top:70px;
+}
