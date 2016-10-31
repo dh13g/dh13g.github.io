@@ -30,21 +30,21 @@ public class InvoiceApp
       
              switch(cus)
              {
-             case 1:
+             case 1:                             //Subtotal >= 500.00 then 20% discount
                  if(sub >= 500.00){
                      
                      dca = sub * .20;
                      dcp = 0.20;
                  } 
-                 else if(sub < 500.00 && sub >= 250.00){
+                 else if(sub < 500.00 && sub >= 250.00){      //Subtotal < 500.00 & subtotal >=250.00 then 15% discount
                      dca = sub * .15;
                      dcp = 0.15;
                  }
-                 else if(sub <250.00 && sub >= 100.00){
+                 else if(sub <250.00 && sub >= 100.00){       //Subtotal < 250.00 & subtotal >=100.00 then 10% discount
                      dca = sub * .10;
                      dcp = 0.10;
                  }
-                 else{
+                 else{                           //If subtotal does not match any of standards above then 0% discount
                      dca = sub * 0.0;
                      dcp = 0.00;
                  }
