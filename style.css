@@ -42,6 +42,48 @@
   padding-right: 10px;
 }
 
+/* ------------------------ BUTTON -----------------------------*/
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.buttong {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.buttong:hover {background-color: #e7e7e7;}
+
+/* --------------------- PARAGRAPH ---------------------------*/
+p.big {
+    line-height: 500%;
+}
+
+/* ----------------- IMAGE ----------------------------------*/
+.myButtonLink {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url('/path/to/myImage.png') bottom;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+
 /* ----------------- NAVIGATION BAR STYLES -------------------*/ 
 
 #navbar{
@@ -114,3 +156,4 @@ a.down-arrow:hover{
   margin: 0 auto;
   overflow: hidden;
 }
+
