@@ -60,7 +60,7 @@
         <ul class="list-inline">
          <li><a href="https://www.facebook.com/daniel.hong.180" target="_blank" <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a></li>
         <li><a href="https://www.linkedin.com/in/dongminhong" target="_blank" <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
-        <li><a href="https://bitbucket.org/dhong0716/" target="_blank" <i class="fa fa-bitbucket" style="font-size:55px"></i></i></a></li>
+        <li><a href="https://bitbucket.org/dhong0716/" target="_blank" <i class="fa fa-bitbucket" style="font-size:55px"></i></a></li>
         </ul>
      </div><!-- h4 text -->
     </div>
@@ -74,26 +74,57 @@
   <h2><strong>Portfolio</strong></h2>
   <div class="row">
     <div class="col-md-4" id="port" style="padding-top:50px;">
-  <a href= "doc/dremel.pdf" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/dremel.png" style="width:350px;height:250px"></a>
+  <button id="myBtn"><img class="thumbnail img-responsive myButtonLink" src = "image/dremel.png" style="width:350px;height:250px"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Dremel 3D Idea Builder</h2>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:18px;">​​At Florida State’s Collaboratory lab, I monitored the use and functionality of new innovative technologies, such as troubleshooting 3D printers, Raspberry Pi’s, and Virtual Reality Head Mounted Displays. I also created a video and infographic tutorial for the Dremel 3D Idea Builder, intended for students and faculty.</p>
+<div class="col-md-4">
+      <p style="padding-top: 50px; font-size:20px;">Infographic Tutorial  <a href="doc/dremel.pdf" target="_blank"><img src="image/pdf.png" width="36" height="36" style="float: left; position: relative; left: 0px; top: 0px; margin: 0 15px 15px 0; border: 0;" /></a><div style="float: left; text-align: left; position: relative;"><table style="font-size: 12px; font-family: tahoma; line-height: .9;"><tr><td colspan="2"><b>3D_Dremel.pdf</b></td></tr><tr style="display: none;"><td>File Size:  </td><td>1540 kb</td></tr><tr style="display: none;"><td>File Type:  </td><td> pdf</td></tr></table><a href="doc/dremel.pdf" target="_blank" style="font-weight: bold;">Download File</a></div>
+</p></div>
+      
+  <iframe style="padding-top: 50px" width="450" height="315" src="https://www.youtube.com/embed/FSVN-TlGyks" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="modal-footer">
+      <h3>Internship at Florida State Collaboratory</h3>
+    </div>
+  </div>
+
+</div>
     <h3><em>Dremel 3D Idea Builder</em></h3>
     <h4>Self-created manual, intended for students and faculty, for internship at Florida State University. For Dremel 3D Idea Builder video tutorial, <a href="https://www.youtube.com/watch?v=FSVN-TlGyks" traget = "_blank">click here</a>.</h4>
-    </div>
+
+    </div> <!-- Dremel 3D -->
+    
     <div class="col-md-4 " id="port" style="padding-top:50px;">
-  <a href="https://github.com/dh13g/dh13g.github.io/blob/master/InvoiceApp.java" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src ="image/java.png" style="width:350px;height:250px"></a>
+  <button id="myBtn"><a href="https://github.com/dh13g/dh13g.github.io/blob/master/InvoiceApp.java" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src ="image/java.png" style="width:350px;height:250px"></a></button>
+
     <h3 id="pad"><em>Java Exercise</em></h3>
     <h4>Created Java programming which includes caculating discounts on invoice based on the customer's type and subtotal. <a href="image/java.png" target="_blank">Click here</a> for the image view.</h4></h4>
-    </div>
+
+    </div><!-- Java -->
+    
+    
       <div class="col-md-4 " id="port" style="padding-top:50px;">
-  <a href="https://github.com/dh13g/dh13g.github.io/blob/master/connection.sql" target = "_blank"> <img class="thumbnail img-responsive myButtonLink" src ="image/connect.png" style="width:350px;height:250px"></a>
+   <button id="myBtn"><a href="https://github.com/dh13g/dh13g.github.io/blob/master/connection.sql" target = "_blank"> <img class="thumbnail img-responsive myButtonLink" src ="image/connect.png" style="width:350px;height:250px"></a></button>
     <h3><em>MySQL</em></h3>
     <h4>Created MySQL database design with given business rules. <a href="image/connect.png" target="_blank">Click here</a> for the image view.</h4>
     <h4></h4>
-    </div>
+   
   </div> <!-- row -->
+  </div>
     
     <div class="row">
     <div class="col-md-4" id="port" style="padding-top:50px;">
-      <a href= "http://codepen.io/dh13g/pen/EgpKqY" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/soccer.png" style="width:350px;height:250px"></a>
+      <button id="myBtn"><a href= "http://codepen.io/dh13g/pen/EgpKqY" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/soccer.png" style="width:350px;height:250px"></a></button>
       <h3 id="pad"><em>Tribute Page</em></h3>
     <h4>Created a tribute page for one of my favorite Korean soccer player. Published about his soccer career achievements and history. </h4>
     </div>
@@ -194,4 +225,32 @@ jQuery(document).ready(function () {
   });
 });
 </script><!-- Jquery -->
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
  
