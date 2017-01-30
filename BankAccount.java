@@ -78,7 +78,7 @@ public class BankAccount {
     return menu;
   }
   
-  public static double depositFunds(double balance){
+  public static double depositFunds(double balance){  ////Function when deposit is requested, it will add the amount inputted with the current balance.
     
     Scanner input = new Scanner(System.in);
    
@@ -93,7 +93,7 @@ public class BankAccount {
 
   }//end of depositFunds
   
-  public static double withdrawFunds (double balance){
+  public static double withdrawFunds (double balance){ //Function when withdrawal is requested, it will minus the amount inputted with the current balance.
      
      System.out.println();
      
@@ -109,7 +109,7 @@ public class BankAccount {
                 
   }//end of withdrawFunds
   
-  public static void checkBalance(int account, double balance){
+  public static void checkBalance(int account, double balance){ //Output of balance. 
     
     System.out.print("\nAccount number: " + account);
     System.out.printf(" has a current balance of: $%.2f", balance);
