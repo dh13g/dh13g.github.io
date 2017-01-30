@@ -1,3 +1,6 @@
+/** Used Java programming to create bank account. The program starts out with $5000.00 by default. It asks the user to type in how 
+much he or she has deposited or withdrawed and calculates how much money the user has when balance is requested.  **/
+
 import java.util.*;
 
 public class BankAccount {
