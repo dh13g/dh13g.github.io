@@ -1,3 +1,5 @@
+/** Using switch case, the program calculate and output invoice report depending on customer's type and subtotal. **/
+
 import java.util.Scanner;
  
 public class InvoiceApp
