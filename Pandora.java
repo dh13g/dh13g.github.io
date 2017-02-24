@@ -1,10 +1,7 @@
 /* 
-This assignment was to create a Pandora player. By pressing the options listed 1, 2, or 3, it gives the user different settings to control. Option 1 is to create a desired channel, option 2 is to play 
+By pressing the options listed 1, 2, or 3, it gives the user different settings to control. Option 1 is to create a desired channel, option 2 is to play 
 a channel, and option 3 is to exit the Pandora. 
 
-Dong Min Hong
-11/7/2016
-Lesson 6
 */
 
 import java.util.Scanner; //needed to use Scanner for input
@@ -30,13 +27,13 @@ public class Pandora {
         //Prompt the user for their last name and menu choice option
         System.out.print("Please enter your last name followed by your Pandora Menu Choice (e.g. Summer 3): " );
         
-        //Read the user's lastname and read the user's menu choice; Parse string if necessary!
+        //Read the user's lastname and read the user's menu choice; 
         lastName = input.next();
         menuSelection = input.nextInt();
         //Convert last name to uppercase
         lastName = lastName.toUpperCase();
 
-        //Control statement (if()/else if() or switch()) that is based on the user's menu choice
+       
                 //process the user's menu choice (options:  1, 2, 3, other)
         switch(menuSelection){
             case 1:
