@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<html>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,7 +21,11 @@
 
 <link rel='shortcut icon' href='image/favicon.png'>
 
+<head>
 <title>Daniel Hong</title>
+</head>
+
+<body>
 
 <div class="container-fluid well page-scroll" style="background-color:#e6e6ff">
    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -71,85 +78,261 @@
 </div> <!-- well -->
 
 
-<!-- Portfolio -->
+<!--      PORTFOLIO     -->
 <div class="well" id="portfolio" style="background-color:#e6e6ff">
-  <h2><strong>Portfolio</strong></h2>
-  <h4 style="font-size:14px">(Firefox not recommended!)</h4>
-  <div class="row">
-    <div class="col-md-4" id="port" style="padding-top:50px;">
-  <button id="myBtn" style="width:375px;height:275px"><img class="thumbnail img-responsive myButtonLink" src = "image/dremel.png" style="width:350px;height:250px"></button>
+    <h2><strong>Portfolio</strong></h2>
+  <br></br>
+  <!-- Start Bootstrap Carousel  -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">×</span>
-      <h2>Dremel 3D Idea Builder</h2>
-    </div>
-    <div class="modal-body">
-      <p style="font-size:18px;">​​At Florida State’s Collaboratory lab, I monitored the use and functionality of new innovative technologies, such as troubleshooting 3D printers, Raspberry Pi’s, and Virtual Reality Head Mounted Displays. I also created a video and infographic tutorial for the Dremel 3D Idea Builder, intended for students and faculty.</p>
-<div class="col-md-4">
-      <p style="padding-top: 50px; font-size:20px;">Infographic Tutorial  <a href="doc/dremel.pdf" target="_blank"><img src="image/pdf.png" width="36" height="36" style="float: left; position: relative; left: 0px; top: 0px; margin: 0 15px 15px 0; border: 0;" /></a><div style="float: left; text-align: left; position: relative;"><table style="font-size: 12px; font-family: tahoma; line-height: .9;"><tr><td colspan="2"><b>3D_Dremel.pdf</b></td></tr><tr style="display: none;"><td>File Size:  </td><td>1540 kb</td></tr><tr style="display: none;"><td>File Type:  </td><td> pdf</td></tr></table><a href="doc/dremel.pdf" target="_blank" style="font-weight: bold;">Download File</a></div>
-</p></div>
+    <div class="item active" align="middle" >
+      <img src="image/BankAccount.png" style="width:550px;height:450px" alt="BankAccount">
+      <div class="container">
+                   <div class="carousel-caption">
+                <h3><strong>BankAccount.java</strong></h3>
+               <p class="lead"><strong>Creating a bank account through programming.</strong></p>
+               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#BankAccount">Learn more</a>
+             </div>
+              
+          </div> <!-- end of dremel -->
+        </div>
+
+              <div id="BankAccount" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+    <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">BankAccount.java</h4>
+                  </div>
       
-  <iframe style="padding-top: 50px" width="450" height="315" src="https://www.youtube.com/embed/FSVN-TlGyks" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="modal-footer">
-      <h3>Internship at Florida State Collaboratory</h3>
-    </div>
-  </div> <!-- end of modal content -->
+                <div class="modal-body">
+                      <p>Used Java programming to create bank account. The program starts out with $5000.00 by default. It asks the user to type in how much he or she has deposited or withdrawed and calculates how much money the user has when balance is requested.</p>
+                      <br></br>
+                      <p>Click the icon below to see the code. </p>
+                      <a href="https://github.com/dh13g/dh13g.github.io/blob/master/BankAccount.java" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
 
-</div> <!-- end of modal -->
+                      <p align="right">Click the icon below to view the image. <br><a href="image/BankAccount.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
+                      </p>
+                </div>
 
-    <h3><em>Dremel 3D Idea Builder</em></h3>
-    <h4>Self-created manual, intended for students and faculty, for internship at Florida State University. Click on the box above for more details.</h4>
+                <div class="modal-footer">
+                      <p><i>GradeApp Java programming</i></p>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
-    </div> <!-- Dremel 3D -->
-    
-    <div class="col-md-4 " id="port" style="padding-top:50px;">
-  <button id="myBtn" style="width:360px;height:275px"><a href="https://github.com/dh13g/dh13g.github.io/blob/master/Pandora.java" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src ="image/java.png" style="width:350px;height:250px"></a></button>
+                </div>
+              </div>
 
-    <h3 id="pad"><em>Pandora.java</em></h3>
-    <h4>Created Java programming which includes basic functionalities of Pandora. It lets the user to create their playlist, select one of the playlists to play and exit out of pandora.<a href="image/java.png" target="_blank">Click here</a> for the image view.</h4></h4>
+            </div>
+          </div> <!-- end of modal -->
 
-    </div><!-- Java -->
+
+    <div class="item" align="middle">
+      <img src="image/dremel.png" style="width:550px;height:450px" alt="dremel3D">
+      
+                   <div class="carousel-caption">
+                <h3><strong>Dremel 3D Idea Builder</strong></h3>
+               <p class="lead"><strong>Created written and visual manual.</strong></p>
+               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#myModal">Learn more</a>
+             </div>
+              
+          </div> <!-- end of dremel -->
+
+              <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+    <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Dremel 3D Idea Builder</h4>
+                </div>
+      
+                <div class="modal-body">
+                    <div class="col-md-4">
+                        <p style="padding-top: 50px; font-size:20px;">Infographic Tutorial  <a href="doc/dremel.pdf" target="_blank"><img src="image/pdf.png" width="36" height="36" style="float: left; position: relative; left: 0px; top: 0px; margin: 0 15px 15px 0; border: 0;" /></a><div style="float: left; text-align: left; position: relative;"><table style="font-size: 12px; font-family: tahoma; line-height: .9;"><tr><td colspan="2"><b>3D_Dremel.pdf</b></td></tr><tr style="display: none;"><td>File Size:  </td><td>1540 kb</td></tr><tr style="display: none;"><td>File Type:  </td><td> pdf</td></tr></table><a href="doc/dremel.pdf" target="_blank" style="font-weight: bold;">Download File</a></div>
+                </p></div>
+                        <iframe style="padding-top: 50px" width="450" height="315" src="https://www.youtube.com/embed/FSVN-TlGyks" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+              <div class="modal-footer">
+                    <p><i>Library Technology Internship at Florida State University</i></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+
+         </div>
+        </div> <!-- end of modal -->
+             
     
-    
-      <div class="col-md-4 " id="port" style="padding-top:50px;">
-   <button id="myBtn" style="width:375px;height:275px"><a href="https://github.com/dh13g/dh13g.github.io/blob/master/connection.sql" target = "_blank"> <img class="thumbnail img-responsive myButtonLink" src ="image/connect.png" style="width:350px;height:250px"></a></button>
-    <h3><em>MySQL</em></h3>
-    <h4>Created MySQL database design with given business rules. <a href="image/connect.png" target="_blank">Click here</a> for the image view.</h4>
-    <h4></h4>
-   
-  </div> <!-- row -->
-  </div>
-    
-    <div class="row">
-    <div class="col-md-4" id="port" style="padding-top:50px;">
-      <button id="myBtn" style="width:375px;height:275px"><a href= "http://codepen.io/dh13g/pen/EgpKqY" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/soccer.png" style="width:350px;height:250px"></a></button>
-      <h3 id="pad"><em>Tribute Page</em></h3>
-    <h4>Created a tribute page for one of my favorite Korean soccer player. Published about his soccer career achievements and history. </h4>
+  
+
+    <div class="item" align="middle">
+      <img src="image/GradeApp.png" style="width:550px;height:450px" alt="GradeApp">
+                   <div class="carousel-caption">
+                <h3><strong>GradeApp.java</strong></h3>
+               <p class="lead"><strong>Created grading application.</strong></p>
+             <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#GradeApp">Learn more</a>
+             </div>
+              
+          </div> <!-- end of dremel -->
+
+              <div id="GradeApp" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+    <!-- Modal content-->
+              <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">GradeApp.java</h4>
+              </div>
+
+              <div class="modal-body">
+                  <p>Used Java programming to create grading application. Used if else statement nested in while loop to execute the program. Few restrictions within the program is applied. Click the box above to see coding.</p>
+                  <br></br>
+                  <p>Click the icon below to see the code. </p>
+                  <a href="https://github.com/dh13g/dh13g.github.io/blob/master/GradeApp.java" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
+
+                  <p align="right">Click the icon below to view the image. <br><a href="image/GradeApp.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
+                      </p>
+              </div>
+
+              <div class="modal-footer">
+                  <p><i>GradeApp Java programming</i></p>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+    </div> <!-- end of modal -->
+
+    <div class="item" align="middle">
+      <img src="image/soccer.png" style="width:650px;height:450px" alt="Soccer">
+                   <div class="carousel-caption">
+                <h3><strong>Tribute Page</strong></h3>
+               <p class="lead"><strong>Created a webpage to tribute my favorite soccer player using bootstrap.</strong></p>
+               <a class="btn btn-large btn-primary" href="http://codepen.io/dh13g/pen/EgpKqY" target = "_blank">Learn more</a>
+             </div>
     </div>
-    
-   
 
-    <div class="col-md-4" id="port" style="padding-top:50px;">
-      <button id="myBtn" style="width:375px;height:275px"><a href= "https://github.com/dh13g/dh13g.github.io/blob/master/BankAccount.java" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/BankAccount.png" style="width:350px;height:250px"></a></button>
-      <h3 id="pad"><em>Bank Account Application</em></h3>
-    <h4>Used Java programming to create bank account. The program starts out with $5000.00 by default. It asks the user to type in how much he or she has deposited or withdrawed and calculates how much money the user has when balance is requested. Click <a href="image/BankAccount.png" target="_blank">here</a> for the image view.</h4>
-    </div>
-    
-     <div class="col-md-4" id="port" style="padding-top:50px;">
-      <button id="myBtn" style="width:375px;height:275px"><a href= "https://github.com/dh13g/dh13g.github.io/blob/master/GradeApp.java" target = "_blank"><img class="thumbnail img-responsive myButtonLink" src = "image/GradeApp.png" style="width:350px;height:250px"></a></button>
-      <h3 id="pad"><em>GradeApp Application</em></h3>
-    <h4>Used Java programming to create grading application. Used if else statement nested in while loop to execute the program. Few restrictions within the program is applied. Click the box above to see coding. Click <a href="image/GradeApp.png" target="_blank">here</a> for the image view.</h4>
-    </div>
-    
-    </div>
-    </div><!--row -->
-</div> <!-- well -->
+
+
+        <div class="item" align="middle">
+      <img src="image/connect.png" style="width:550px;height:450px" alt="connectionsql">
+          <div class="carousel-caption">
+                <h3 style="color:black"><strong>MySQL</strong></h3>
+               <p class="lead" style="color:black"><strong>Used Relational Database to create this project.</strong></p>
+               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#Connect">Learn more</a>
+             </div>
+              
+          </div> <!-- end of dremel -->
+
+              <div id="Connect" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+    <!-- Modal content-->
+                       <div class="modal-content">
+                             <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">MySQL</h4>
+                            </div>
+                <div class="modal-body">
+                  <div class="row">
+                      <p>Created MySQL database design with given business rules.</p>
+                      <br></br>
+                      <p>Click the icon below to see the code. </p>
+                       <div class="col-md-6">
+                       <a href="https://github.com/dh13g/dh13g.github.io/blob/master/connection.sql" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
+                     </div>
+                     
+                      <p align="right">Click the icon below to view the image. <br><a href="image/connect.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
+                      </p>
+                        
+                      
+                       </div>
+                     </div>
+                  <div class="modal-footer">
+                       <p><i>MySQL Relational Database</i></p>
+                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                  </div>
+                </div>
+
+            </div>
+          </div> <!-- end of modal -->
+
+
+        <div class="item" align="middle"> <!-- Python -->
+      <img src="image/python.png" style="width:550px;height:450px" alt="python">
+                   <div class="carousel-caption">
+                <h3>Python</h3>
+               <p class="lead">Created a webpage using python.</p>
+               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#Python">Learn more</a>
+             </div>
+              
+          </div> <!-- end of dremel -->
+
+              <div id="Python" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+    <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Python</h4>
+                </div>
+      
+                <div class="modal-body">
+                    <p>Created a simple website using python programming.</p>
+                    <br></br>
+                    <p>Click the icon below to see the code. </p>
+                    <a href="https://github.com/dh13g/dh13g.github.io/blob/master/MyHTML.py" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
+
+                    <p align="right">Click the icon below to view the image. <br><a href="image/Python.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
+                      </p>
+
+                </div>
+
+                <div class="modal-footer">
+                    <p><i>Pyhton.py</i></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+             </div>
+
+          </div>
+        </div> <!-- end of modal -->
+
+      </div> <!--   END OF WRAPPER SLIDERS   -->
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div> <!--     END OF CAROUSEL     -->
+</div> <!--     END OF PORTFOLIO    -->
+
 
 <!--Experience & Community Involvement -->
 
@@ -210,6 +393,10 @@ culture and setting of the workplace and analyze how my skills can contribute to
   </div> <!--row-->
 </div><!-- well-->
 
+
+</body> <!--      END OF BODY       -->
+
+
  <footer>
    <div class ="row text-center">
       
@@ -244,31 +431,4 @@ jQuery(document).ready(function () {
 });
 </script><!-- Jquery -->
 
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
- 
+</html><!--     END OF HTML    -->
