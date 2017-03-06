@@ -42,118 +42,27 @@
   padding-right: 10px;
 }
 
-/* ------------------------ BUTTON -----------------------------*/
-.button1 {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+/* ---------- background modal ------------- */
+.bank{
+  background-color: #b0e0e6;
 }
 
-
-.buttong {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
+.grade{
+  background-color: #4BFE78;
 }
 
-.buttong:hover {background-color: #e7e7e7;}
-
-/* --------------------- PARAGRAPH ---------------------------*/
-p.big {
-    line-height: 500%;
+.con{
+  background-color: #93BF96;
 }
 
-/* ----------------- IMAGE ----------------------------------*/
-.myButtonLink {
-	display: block;
-	width: 100px;
-	height: 100px;
-	background: url('/path/to/myImage.png') bottom;
-	text-indent: -99999px;
-}
-.myButtonLink:hover {
-	background-position: 0 0;
+.pythonweb{
+  background-color: #BBBBFF;
 }
 
-/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
-
-#navbar{
-	position: fixed;
-	top: 0;	
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.8);
-	height: 54px;
-}
-/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
-ul#menu {
-	list-style: none; /* eliminates bullets */
-	/* adjust padding top to adjust nav bar vertical position */
-	padding-top: 0px;
-} 
-ul#menu li {
-	float: left; /* changes list from vertical to horizontal */
-	padding-bottom: 20px;
-} 
-ul#menu li a.button {
-	font-size: 16px;
-	text-decoration: none;
-	/* this padding defines the size of the buttons */
-	padding: 20px 100px 20px 100px; 
-}
-/* change button color when mouse hovers over */
-ul#menu li a.button:hover {
-	background-color: rgba(42, 188, 238, 0.1);
-}  
-
-/* ----------------- NAVIGATION ARROW (^ v) STYLES -------------------*/ 
-
-.nav-arrows {   /* space for navigation arrows to reside */
-	width: 100px;
-	margin-left: auto;  /* centered on page */
-    margin-right: auto;
-	padding-top: 20px;
-}
-.nav-arrows-right {  /* space for nav arrows on title page are right aligned */
-	width: 100px;
-	margin-left: auto;
-    margin-right: 0;
-	padding-top: 20px;
-}
-/* utilize image sprites for fast loading hover effects */
-/* learn about it at http://www.w3schools.com/css/css_image_sprites.asp */
-a.up-arrow{ 
-    display:block;
-    background:url(images/arrow-up.png) no-repeat 0px 0px scroll;
-    width:48px;
-    height:28px;
-	float: left;
-}
-a.up-arrow:hover{
-    background-position:-49px 0px;
-}
-a.down-arrow{
-    display:block;
-    background:url(images/arrow-down.png) no-repeat 0px 0px scroll;
-    width:48px;
-    height:28px;
-	float: left;
-}
-a.down-arrow:hover{
-    background-position:-49px 0px;
+.pythonli{
+  background-color: #FF4848;
 }
 
-.container {
-  width: 960px; /* static width container always stays at this width no matter what the window size */
-  margin: 0 auto;
-  overflow: hidden;
+.drem{
+  background-color: #74FEF8;
 }
-

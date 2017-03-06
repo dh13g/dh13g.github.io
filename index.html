@@ -13,11 +13,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-<link href="css/bootstrap.css" rel="stylesheet">
+<!-- <link href="css/bootstrap.css" rel="stylesheet"> Does not work  -->
 
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <link rel='shortcut icon' href='image/favicon.png'>
 
@@ -98,49 +99,6 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
 
-    <div class="item active" align="middle" >
-      <img src="image/BankAccount.png" style="width:550px;height:450px" alt="BankAccount">
-      <div class="container">
-                   <div class="carousel-caption">
-                <h3><strong>BankAccount.java</strong></h3>
-               <p class="lead"><strong>Creating a bank account through programming.</strong></p>
-               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#BankAccount">Learn more</a>
-             </div>
-              
-          </div> <!-- end of dremel -->
-        </div>
-
-              <div id="BankAccount" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-
-    <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">BankAccount.java</h4>
-                  </div>
-      
-                <div class="modal-body">
-                      <p>Used Java programming to create bank account. The program starts out with $5000.00 by default. It asks the user to type in how much he or she has deposited or withdrawed and calculates how much money the user has when balance is requested.</p>
-                      <br></br>
-                      <p>Click the icon below to see the code. </p>
-                      <a href="https://github.com/dh13g/dh13g.github.io/blob/master/java/BankAccount.java" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
-
-                      <p align="right">Click the icon below to view the image. <br><a href="image/BankAccount.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
-                      </p>
-                </div>
-
-                <div class="modal-footer">
-                      <p><i>GradeApp Java programming</i></p>
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-                </div>
-              </div>
-
-            </div>
-          </div> <!-- end of modal -->
-
-
     <div class="item" align="middle">
       <img src="image/dremel.png" style="width:550px;height:450px" alt="dremel3D">
       
@@ -157,7 +115,7 @@
 
     <!-- Modal content-->
               <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header drem">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title">Dremel 3D Idea Builder</h4>
                 </div>
@@ -169,7 +127,7 @@
                         <iframe style="padding-top: 50px" width="450" height="315" src="https://www.youtube.com/embed/FSVN-TlGyks" frameborder="0" allowfullscreen></iframe>
                 </div>
 
-              <div class="modal-footer">
+              <div class="modal-footer drem">
                     <p><i>Library Technology Internship at Florida State University</i></p>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
@@ -180,6 +138,48 @@
         </div> <!-- end of modal -->
              
     
+
+        <div class="item active" align="middle" >
+      <img src="image/BankAccount.png" style="width:550px;height:450px" alt="BankAccount">
+      <div class="container">
+                   <div class="carousel-caption">
+                <h3><strong>BankAccount.java</strong></h3>
+               <p class="lead"><strong>Creating a bank account through programming.</strong></p>
+               <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#BankAccount">Learn more</a>
+             </div>
+              
+          </div> <!-- end of bankaccount -->
+        </div>
+
+              <div id="BankAccount" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+    <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header bank">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">BankAccount.java</h4>
+                  </div>
+      
+                <div class="modal-body">
+                      <p>Used Java programming to create bank account. The program starts out with $5000.00 by default. It asks the user to type in how much he or she has deposited or withdrawed and calculates how much money the user has when balance is requested.</p>
+                      <br></br>
+                      <p>Click the icon below to see the code. </p>
+                      <a href="https://github.com/dh13g/dh13g.github.io/blob/master/java/BankAccount.java" target = "_blank"><i class="fa fa-github" style="font-size:70px" aria-hidden="true"></i></a>
+
+                      <p align="right">Click the icon below to view the image. <br><a href="image/BankAccount.png" target="_blank"><i class="fa fa-picture-o" aria-hidden="true" style="font-size:55px"></i></a>
+                      </p>
+                </div>
+
+                <div class="modal-footer bank">
+                      <p><i>GradeApp Java programming</i></p>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+              </div>
+
+            </div>
+          </div> <!-- end of modal -->
   
 
     <div class="item" align="middle">
@@ -190,14 +190,14 @@
              <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#GradeApp">Learn more</a>
              </div>
               
-          </div> <!-- end of dremel -->
+          </div> <!-- end of gradeapp -->
 
               <div id="GradeApp" class="modal fade" role="dialog">
               <div class="modal-dialog">
 
     <!-- Modal content-->
               <div class="modal-content">
-              <div class="modal-header">
+              <div class="modal-header grade">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title">GradeApp.java</h4>
               </div>
@@ -212,7 +212,7 @@
                       </p>
               </div>
 
-              <div class="modal-footer">
+              <div class="modal-footer grade">
                   <p><i>GradeApp Java programming</i></p>
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -240,14 +240,14 @@
                <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#Connect">Learn more</a>
              </div>
               
-          </div> <!-- end of dremel -->
+          </div> <!-- end of sql -->
 
               <div id="Connect" class="modal fade" role="dialog">
                   <div class="modal-dialog">
 
     <!-- Modal content-->
                        <div class="modal-content">
-                             <div class="modal-header">
+                             <div class="modal-header con">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 <h4 class="modal-title">MySQL</h4>
                             </div>
@@ -266,7 +266,7 @@
                       
                        </div>
                      </div>
-                  <div class="modal-footer">
+                  <div class="modal-footer con">
                        <p><i>MySQL Relational Database</i></p>
                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
@@ -285,14 +285,14 @@
                <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#Python">Learn more</a>
              </div>
               
-          </div> <!-- end of dremel -->
+          </div> <!-- end of python -->
 
               <div id="Python" class="modal fade" role="dialog">
               <div class="modal-dialog">
 
     <!-- Modal content-->
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header pythonweb">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title">Python</h4>
                 </div>
@@ -308,7 +308,7 @@
 
                 </div>
 
-                <div class="modal-footer">
+                <div class="modal-footer pythonweb">
                     <p><i>Pyhton.py</i></p>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
@@ -327,14 +327,14 @@
                <a class="btn btn-large btn-primary" data-toggle="modal" data-target="#PythonList">Learn more</a>
              </div>
               
-          </div> <!-- end of dremel -->
+          </div> <!-- end of pythonlist -->
 
               <div id="PythonList" class="modal fade" role="dialog">
               <div class="modal-dialog">
 
     <!-- Modal content-->
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header pythonli">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <h4 class="modal-title">Python</h4>
                 </div>
@@ -350,7 +350,7 @@
 
                 </div>
 
-                <div class="modal-footer">
+                <div class="modal-footer pythonli">
                     <p><i>PyhtonList.py</i></p>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
