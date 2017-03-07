@@ -30,3 +30,5 @@ print(my_eat) # .pop(0)
 print(my_fruit) # .pop()
 
 print(my_favorite)
+
+
